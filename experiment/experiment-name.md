@@ -1,1 +1,1 @@
-## Experiment name
+## Characteristic parameters of Op-Amp.
