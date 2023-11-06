@@ -25,7 +25,7 @@
 ![](images/Table1.1.png)
 </center>
 
-**3.** Click on **'Check'** button to check connections. If correct, Click on **'Show output voltage'** button to view output on DMM.  
+**3.** Click on **'Check Connection'** button to check connections. If correct, Click on **'Show output voltage'** button to view output on DMM.  
 **4.** Calculate the inverting bias current using the formula:  
 
 <div style="text-align:center"> 
@@ -57,7 +57,7 @@
 </div>
   
 
-**3.** Click on **'Check'** button to check connections. If correct, Click on **'Show output voltage'** button to view output on DMM.  
+**3.** Click on **'Check Connection'** button to check connections. If correct, Click on **'Show output voltage'** button to view output on DMM.  
 **4.** Calculate the non-inverting bias current using the formula:  
 <div style="text-align:center">
 
@@ -90,7 +90,7 @@ where, I<sub>B1</sub> has to be calculated from previous part.
 </div>
   
 
-**3.** Click on **'Check'** button to check connections. If correct, Click on **'Show output voltage'** button to view output on DMM.  
+**3.** Click on **'Check Connection'** button to check connections. If correct, Click on **'Show output voltage'** button to view output on DMM.  
 **4.** Calculate the input offset current using the formula:  
 <div style="text-align:center">
 
@@ -119,10 +119,12 @@ where, I<sub>B1</sub> has to be calculated from previous part.
 **Table 4: Connection table to measure input offset voltage.**
 
 ![](images/Table3.png)
+
 </div>
   
-**3.** Click on **'Check'** button to check connections. If correct, Click on **'Show output voltage'** button to view output (**V<sub>o</sub>**) on DMM.  
-**4.** Calculate the input offset voltage, **V<sub>io</sub>** using the formula:  
+
+**3.** Click on **'Check Connection'** button to check connections. If correct, Click on **'Show output voltage'** button to view output (**V<sub>o</sub>**) on DMM.    
+**4.** Calculate the input offset voltage, **V<sub>io</sub>** using the formula:   
 <div style="text-align:center">
 
 **V<sub>io</sub>** = (V<sub>o</sub> - I<sub>io</sub>R<sub>f</sub>)/(1+R<sub>f</sub>/R<sub>i</sub>)</div>
@@ -152,9 +154,10 @@ where, I<sub>B1</sub> has to be calculated from previous part.
 ![](images/Table4.png)
 </div>
   
-**3.** The **input signal**\* has to be taken from the red terminal of A.F. Oscillator while the other terminal has to be grounded.  
+  
+**3.** The **input signal\*** has to be taken from the red terminal of A.F. Oscillator while the other terminal has to be grounded.  
 **4.** Also, feed the input signal to channel CH1 of the C.R.O and the output from Op-Amp IC must be fed to the channel CH2.  
-**5.** Click on **'Check'** button to check connections. If correct, Click on **'Show output voltage'** button to view output.  
+**5.** Click on **'Check Connection'** button to check connections. If correct, Click on **'Show output voltage'** button to view output.  
 **6.** Increase the frequency of input signal using the dial\*\* on A.F. Oscillator until output wave becomes triangular. This is the required frequency **f<sub>max</sub>** in KHz.  
 **7.** Calculate the slew rate using the formula:  
 <div style="text-align:center"> 

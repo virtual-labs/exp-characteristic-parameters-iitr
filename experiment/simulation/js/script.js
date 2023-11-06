@@ -190,6 +190,14 @@ function checkCircuit() {
     }
    
 console.log("###noofedges->"+g.numberofedges);
+var edges= (g.numberofedges);
+console.log('edges:'+edges)
+if(edges == 0)
+{
+    alert("No connections present.");   
+    return;
+}
+
 
     if(g.isConnected("ic741_7","VCC")&& g.isConnected("ic741_3",'GND')){
         console.log("IC 555 connected to supply");
@@ -201,13 +209,36 @@ console.log("###noofedges->"+g.numberofedges);
 
               if  (g.isConnected("ic741_2","resistance1_C1")&&g.isConnected("ic741_6","resistance1_A1")&&g.isConnected("ic741_2","cap_C1")&&g.isConnected("ic741_6","cap_A1")&&g.isConnected("multimeter_VCC","ic741_6"))
               {
-                alert("Right connections.");theorem1=true;document.getElementById("startbutton").disabled=false;document.getElementById("addtable").disabled=false;
+                alert("Right connections.");
+                theorem1=true;
+                document.getElementById("startbutton").disabled=false;
+                document.getElementById("addtable").disabled=false;
+            
             }
             
 
-             else if(g.isConnected("ic741_2","resistance1_C1")&&g.isConnected("ic741_6","resistance1_A1")&&g.isConnected("ic741_2","cap_A1")&&g.isConnected("ic741_6","cap_C1")&&g.isConnected("multimeter_VCC","ic741_6")){alert("Right connections.");theorem1=true;document.getElementById("startbutton").disabled=false;document.getElementById("checkbutton").disabled=true;document.getElementById("addtable").disabled=false;
-            }else if(g.isConnected("ic741_2","resistance1_A1")&&g.isConnected("ic741_6","resistance1_C1")&&g.isConnected("ic741_2","cap_A1")&&g.isConnected("ic741_6","cap_C1")&&g.isConnected("multimeter_VCC","ic741_6")){alert("Right connections.");theorem1=true;document.getElementById("startbutton").disabled=false;document.getElementById("checkbutton").disabled=true;document.getElementById("addtable").disabled=false;
-            }else if(g.isConnected("ic741_2","resistance1_A1")&&g.isConnected("ic741_6","resistance1_C1")&&g.isConnected("ic741_2","cap_C1")&&g.isConnected("ic741_6","cap_A1")&&g.isConnected("multimeter_VCC","ic741_6")){alert("Right connections.");theorem1=true;document.getElementById("startbutton").disabled=false;document.getElementById("checkbutton").disabled=true;document.getElementById("addtable").disabled=false;
+             else if(g.isConnected("ic741_2","resistance1_C1")&&g.isConnected("ic741_6","resistance1_A1")&&g.isConnected("ic741_2","cap_A1")&&g.isConnected("ic741_6","cap_C1")&&g.isConnected("multimeter_VCC","ic741_6"))
+             {alert("Right connections.");    
+                          theorem1=true;
+             document.getElementById("startbutton").disabled=false;
+             document.getElementById("checkbutton").disabled=true;
+             document.getElementById("addtable").disabled=false;
+            }
+            else if(g.isConnected("ic741_2","resistance1_A1")&&g.isConnected("ic741_6","resistance1_C1")&&g.isConnected("ic741_2","cap_A1")&&g.isConnected("ic741_6","cap_C1")&&g.isConnected("multimeter_VCC","ic741_6"))
+            {alert("Right connections.");
+            theorem1=true;
+            
+            document.getElementById("startbutton").disabled=false;
+            document.getElementById("checkbutton").disabled=true;
+            document.getElementById("addtable").disabled=false;
+            }
+            else if(g.isConnected("ic741_2","resistance1_A1")&&g.isConnected("ic741_6","resistance1_C1")&&g.isConnected("ic741_2","cap_C1")&&g.isConnected("ic741_6","cap_A1")&&g.isConnected("multimeter_VCC","ic741_6"))
+            {alert("Right connections.");
+           
+            theorem1=true;
+            document.getElementById("startbutton").disabled=false;
+            document.getElementById("checkbutton").disabled=true;
+            document.getElementById("addtable").disabled=false;
             
             
             }else if(theorem1 != true){
@@ -244,7 +275,14 @@ function checkCircuit1() {
         g.addEdge(connections[key].endpoints[0].getParameter('groupName'), connections[key].endpoints[1].getParameter('groupName'));
     }
    
-
+    var edges= (g.numberofedges);
+    console.log('edges:'+edges)
+    if(edges == 0)
+    {
+        alert("No connections present.");   
+        return;
+    }
+    
 
     if(g.isConnected("ic741_7","VCC")){
         console.log("IC 555 connected to supply");
@@ -302,7 +340,14 @@ function checkCircuit2() {
         g.addEdge(connections[key].endpoints[0].getParameter('groupName'), connections[key].endpoints[1].getParameter('groupName'));
     }
    
-
+    var edges= (g.numberofedges);
+    console.log('edges:'+edges)
+    if(edges == 0)
+    {
+        alert("No connections present.");   
+        return;
+    }
+    
 
     if(g.isConnected("ic741_7","VCC")){
         console.log("IC 555 connected to supply");
@@ -354,6 +399,14 @@ function checkCircuit3() {
         g.addEdge(connections[key].endpoints[0].getParameter('groupName'), connections[key].endpoints[1].getParameter('groupName'));
     }
    
+    var edges= (g.numberofedges);
+console.log('edges:'+edges)
+if(edges == 0)
+{
+    alert("No connections present.");   
+    return;
+}
+
 
 
     if(g.isConnected("ic741_7","VCC")){
@@ -417,6 +470,14 @@ function checkCircuit4() {
         g.addEdge(connections[key].endpoints[0].getParameter('groupName'), connections[key].endpoints[1].getParameter('groupName'));
     }
    
+    var edges= (g.numberofedges);
+console.log('edges:'+edges)
+if(edges == 0)
+{
+    alert("No connections present.");   
+    return;
+}
+
 
 
     if(g.isConnected("ic741_7","VCC")){

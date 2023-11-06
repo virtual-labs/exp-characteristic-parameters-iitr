@@ -13,7 +13,7 @@
     padding-top: 20px;
     margin-left: 20px;
     float: left;
-    width: 1000px;
+    width: 1050px;
     height: 550px;
     display: block;
 }
@@ -27,8 +27,7 @@
     position: absolute;
     height: 580px;
     width: 1050px;
-    border: 2px solid #d39538;
-    
+    border: 2px solid #d39538;   
     box-shadow: 3px 4px 6px #888888;
     border-radius: 6px;
     background-color: #f2f2f2;
@@ -142,34 +141,67 @@ a
 {
     color: red;
 }
-.components        
 
-/*      fieldset position  */
-{   position: absolute;
-    display: inline-block;
-    width:260px;
-    height:410px;
-    border-radius: 7px;
+.components {
+    margin-top: 30px;
+    margin-left: 40px;
+    background-color: #fff;
+    border-radius: 16px;
     box-shadow: 0 16px 31px -17px rgba(0, 31, 97, 0.6);
     background: rgb(243, 236, 236);
     align-items: center;
-    visibility: hidden;
-    top:160px;
-    left:1160px;
-    font-size: 23px;
-    font-family: sans-serif;
-    z-index:1;
+    font-family: 'Muli';
+    height: 330px;
+    width: 330px;
+   
 }
 
-#breadbutton                                                      /*     breadboard button  */
+.components div button {
+    background-color: #2237f8;
+    border: none;
+    font-size: 15px;
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 12px;
+    border: 1px rgb(46, 9, 255) solid;
+    width: 120px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.components div button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.components div {
+    display: flex;
+    margin-top: 15px;
+}
+
+#second {
+    background-color: #fff;
+    color: #5433FF;
+    margin-top: 20px;
+    cursor: auto;
+}
+
+/*
+#breadbutton                                                   
 {   width: 150px;
     height:40px;
     background: #5433FF;
     border: 2px solid #5433ff;
-    border-radius: 10px;
-    position: absolute;
+    border-radius: 10px;   
     margin-top: 15px;
-    margin-left:-65px;
+    margin-left:10px;
     color: #fff;   
    
 }
@@ -179,15 +211,14 @@ a
     color: #5433FF;
 }
 
-#ic2button                                           /*      ic button  */
+#ic2button                                           
 {   width: 150px;
     height:40px;
     background: #5433FF;
     border: 2px solid #5433ff;
     border-radius: 10px;
-    position: absolute;
-    margin-top: 85px;
-    margin-left:-65px;
+    margin-top: 10px;
+    margin-left:10px;
     color: #fff;
 }
 #ic2button:hover                                       
@@ -196,15 +227,14 @@ a
     color: #5433FF;
 }
 
-#supplybutton                                            /*      supply button  */
+#supplybutton                                        
 {   width: 150px;
     height:60px;
     background: #5433FF;
     border: 2px solid #5433ff;
-    border-radius: 10px;
-    position: absolute;
-    margin-top: 25px;
-    margin-left:-65px;
+    border-radius: 10px;   
+    margin-top: 10px;
+    margin-left:10px;
     color: #fff;
 }
 #supplybutton:hover
@@ -213,15 +243,14 @@ a
     color: #5433FF;
 
 }
-#switchbutton                                         /*  digital multimeter   */
+#switchbutton                                        
 {  width: 150px;
    height:60px;
    background: #5433FF;
     border: 2px solid #5433ff;
    border-radius: 10px;
-   position: absolute;
-   margin-top: 55px;
-   margin-left:-65px;
+   margin-top: 10px;
+   margin-left:10px;
    color: #fff;
 }
 #switchbutton:hover
@@ -230,15 +259,14 @@ a
     color: #5433FF;
 }
 
-#capbutton                                                   /*      led button   */
+#capbutton                                               
 {   width: 150px;
     height:40px;
     background: #5433FF;
     border: 2px solid #5433ff;
     border-radius: 10px; 
-    position: absolute;
-    margin-top: 95px;
-    margin-left:-65px;
+    margin-top: 10px;
+    margin-left:10px;
     color: #fff;
 }
 #capbutton:hover
@@ -248,15 +276,14 @@ a
 
 }
 
-#resistancebutton                                                   /*      led button   */
+#resistancebutton                                                  
 {  width: 150px;
    height:40px;
    background: #5433FF;
     border: 2px solid #5433ff;
    border-radius: 10px; 
-   position: absolute;
-   margin-top: 105px;
-   margin-left:-65px;
+   margin-top: 10px;
+   margin-left:10px;
    color: #fff;
 }
 #resistancebutton:hover
@@ -264,9 +291,9 @@ a
     background-color: #ffffff;
     color: #5433FF;
 }
-
+*/
 .right {
-    z-index:-2;
+   
     margin-top: 20px;
     margin-right: 20px;
     float: right;
@@ -278,132 +305,107 @@ a
     display: block;
 }
 
+#heading
+{
+    position:absolute;
+    margin-top:20px;
+    margin-left:50px;
+    font-size:18px;
+    width:300px;
+    text-align:center;
+}
+
+button:disabled{
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+.bottom {
+    height: 60px;position: absolute;
+    text-align: center;
+    top:650px;
+    width:1050px;
+}
+
+.bottom button {
+    margin: 15px 10px 10px 10px;
+    height: 40px;
+    width: 170px;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    border-color: black;
+    color:white;
+}
+
 #checkbutton                                      /*      check connections buttton  */
-{   width: 200px;
-    height:40px;
+{  
     border: 2px rgb(0, 168, 8) solid;
     background: rgb(0, 168, 8);
-    border-radius: 10px;
-    position: absolute;
-    top:650px;
-    left:100px;
     font-weight: bolder;
-    font-size: 18px;
+
 }
 
 #checkbutton:hover                                  
-{ color: rgb(0, 168, 8);
+{color: rgb(0, 168, 8);
     background: white;
-    font-size: 18px;
+    font-size: 16px;
 
 }
 
 
 #startbutton                                          /*      start button   */
-{   width: 200px;
-    height:40px;
-    border: 2px rgb(0, 168, 8) solid;
-    background: rgb(0, 168, 8);
-    border-radius: 10px;
-    position: absolute;
-    top:650px;
-    left:500px;
+{  
+    border: 2px #5433FF solid;
+    background: #5433FF;
     font-weight: bolder;
-    font-size: 18px;
 }
 #startbutton:hover
 {
-    color: rgb(0, 168, 8);
-    background: white;
-    font-size: 18px;
+    color: #5433FF;
+  background: white;
+  font-size: 16px;
 }
 
 #resetbutton                           /*reset button*/
-{   width: 100px;
-    height:40px;
+{   
     border: 2px rgb(255, 54, 54) solid;
-    background: rgb(255, 54, 54);
-    border-radius: 10px;
-    position: absolute;
-    top:650px;
-    left:350px;
+    background: rgb(255, 54, 54);    
     font-weight: bolder;
-    font-size: 18px;
-
 }
 #resetbutton:hover 
 {
     color: rgb(255, 54, 54);
     background: white;
-    font-size: 18px;
+    font-size: 16px;
 
 }
 
-#undobutton
-{
-    width: 150px;
-    height:54px;
-    background-color: #ccff99 ;
-    border-radius: 10px;
-    position: absolute;
-    top:550px;
-    left: 1200px;
-    font-weight: bolder;
-}
-#undobutton:hover 
-{
-    background-color:#7CFC00;
-    color:#000;
-
-}
 
 #addtable                          /*result button*/
-{   width: 100px;
-    height:40px;
-    border: 2px rgb(255, 54, 54) solid;
-    background: rgb(255, 54, 54);
-    border-radius: 10px;
-    position: absolute;
-    top:650px;
-    left:750px;
-    font-size: 18px;
+{  
+    border: 2px yellowgreen solid;
+    background: yellowgreen;
+    font-weight: bolder;
 
 }
 #addtable:hover 
 {
-    color: rgb(255, 54, 54);
+    color: yellowgreen;
     background: white;
     font-size: 18px;
 
 }
 
-/*h3
-{
-    position: absolute;
-    font-family:sans-serif;
-    width:380px; 
-    margin-left: 20px;
-    font-style: bold;
-    text-align:center;
 
-}*/
-button
-{
-    font-size: 19px;
-    font-style: bold;
-       cursor: pointer;
-       font-family: serif;
-}
 
 
   #copyright {
     position: absolute;
-    top:730px;
-    
+    top:720px;   
     font-size: 18px;
     width: 1518px;
     height: 30px;
-    font-size: 15px;
     padding-top: 10px;
     text-align: center;
     color: #fff;
@@ -425,8 +427,8 @@ button
 {
     font-size: 19px;
     font-style: bold;
-    cursor: pointer;
-    font-family: serif;
+       cursor: pointer;
+       font-family: serif;
 }
 
 .button
@@ -551,10 +553,11 @@ button
 .Button-data {
     position: fixed;
     right: 0;
-    bottom: 50px;
+    bottom:1px;
     transform: translateX(100%);
     transition: transform 0.4s ease-in-out;
-    overflow: hidden;
+    overflow: scroll;
+    z-index:999;
 }
 
 .Button-data.visible {
@@ -567,7 +570,6 @@ button
     width: 220px;
     font-size: 20px;
     cursor: pointer;
-    background: white;
     font-weight: 500;
     background: #5433FF;
     border: 2px solid #5433ff;
@@ -582,31 +584,12 @@ button
     background-color: #ffffff;
     color: #5433FF;
 }
-/*.panel {
-    margin-top: 200px; 
- 
-    z-index:10;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    background: #fff;
-    position:relative;
-    box-shadow: 0 16px 31px -17px rgba(0, 31, 97, 0.6);
-    border: 1px solid black;
-    border-radius: 20px;
-    height: 450px;
-    width: 250px;
-    padding: 10px;
-    color: black;
-    
-   
-}*/
+
 
 .panel {
-    z-index:20;
+
     right:5px;
-    padding: 40px 0px 10px 20px;
+    padding: 20px 0px 10px 20px;
     background-color: #fff;
     border-radius: 16px;
     border: 1px solid black;
@@ -616,12 +599,10 @@ button
     font-family: 'Muli';
     overflow: hidden;
     height: auto;
-    width: 320px;
-    max-width: calc(100% - 10px);
-    
+    width: 400px;
+    max-width: calc(100% - 10px);   
     text-align: justify;
-    font-size: 13px;
-    max-width: calc(100% - 10px);
+  
 }
 
 .img {
@@ -652,12 +633,15 @@ button
 .panel button.close-btn:focus {
     outline: none;
 }
+li::marker{
+    font-weight: bolder;
+}
 #chooseone
 {
     position:absolute;
     width: 245px;
     height: 100px;
-    top:160px;
+    top:210px;
     left: 1155px;
     border-radius: 5px;
     font-size: 18px;
@@ -699,40 +683,14 @@ button
     width: 160px;
 }
 
-#heading
-  {
-    position: absolute;
-    margin-top: 95px;
-    margin-left: 10px;
-    width:1330px;
-    height:35px;
-    border-radius: 4px;
-    background-color: #404040;
-    color: #fff;
-    font-weight: bolder;
-    font-size: 20px;
-    text-align: center;
-  }
 
-#footer1
-{
-    position: absolute;
-    margin-top: 95px;
-    margin-left: 10px;
-    width:1330px;
-    height:35px;
-    border-radius: 4px;
-    background-color: #404040;
-    color: #fff;
-    font-weight: bolder;
-    font-size: 20px;
-    text-align: center;
-}
+
+
 #display
 {
     position: absolute;
-    top:165px;
-    left:814px;
+    top:90px;
+    left:825px;
     background-color: #C7E5F0;
     z-index: 10;
     border-radius: 4px;
@@ -776,7 +734,7 @@ button
       #box1
       {
         position: absolute;
-        top:150px;
+        top:70px;
         left:50px;
         font-weight: bolder;
         font-size: 22px;
@@ -875,30 +833,4 @@ button
   visibility: hidden;
   
 }
-.bottom {
-    height: 60px;
-    text-align: center;
-}
 
-.bottom button {
-    margin: 10px 80px 10px 80px;
-    height: 40px;
-    width: 210px;
-    font-size: 15px;
-    border: none;
-    font-weight: bold;
-    border-radius: 25px;
-    cursor: pointer;
-    color: white;
-}
-#copyright {
-    width: 1518px;
-    height: 30px;
-    font-size: 15px;
-    padding-top: 10px;
-    text-align: center;
-    color: #fff;
-    background-color: #333;
-    font-family: 'Raleway', sans-serif;
-    z-index:-1;
-}
