@@ -4,7 +4,7 @@
 <b>Discipline | <b>Electronics and Communication Engineering
 :--|:--|
 <b> Lab | <b> Analog and Digital Electronics-II
-<b> Experiment|     <b>1. Characteristic parameters of Op-Amp.
+<b> Experiment|     <b>1. Characteristics and parameters of Op-Amp.
 
 ### About the Experiment 
 
