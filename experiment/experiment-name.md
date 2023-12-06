@@ -1,1 +1,1 @@
-## Characteristic parameters of Op-Amp
+## Characteristics and parameters of Op-Amp
