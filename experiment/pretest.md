@@ -38,7 +38,7 @@ D     Infinite slew rate
 <br>
 
 
-Q5. The difference of current in both input terminals of op-amp is called  
+Q5. The difference of current in both input terminals of the op-amp is called  
 
 A     Input bias current  
 B     Output bias current  
@@ -74,12 +74,12 @@ D     Common modulation rejection ratio
 <br>
 
 
-Q9. For an op amp with negative feedback, the output is  
+Q9. For an op-amp with negative feedback, the output is  
 
 A     Equal to the input  
 B     Increased  
-<b>C     Fed back to the inverting input</b>  
-D     Fed back to the non-inverting input  
+<b>C     Feedback to the inverting input</b>  
+D     Feedback to the non-inverting input  
 <br>
   
     

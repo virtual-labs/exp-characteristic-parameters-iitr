@@ -2,9 +2,9 @@
 {"question":"The name Operational Amplifier is due to which of the following reason?","answers":{"a":"It can perform binary operations.","b":"It can perform basic mathematical operations.","c":"It can produce any kind of output waveforms.","d":"It was a random name given by inventor Karl D. Swartzel Jr."},"correctAnswer":"b"},
 {"question":"An op-amp internal circuit consists of","answers":{"a":"Current mirror","b":"Emitter follower","c":"Level shifting stage","d":"All of the above"},"correctAnswer":"d"},
 {"question":"Which of these is not a characteristic of an ideal op-amp?","answers":{"a":"Infinite input resistance","b":"Zero output resistance","c":"Zero bandwidth","d":"Infinite slew rate"},"correctAnswer":"c"},
-{"question":"The difference of current in both input terminals of op-amp is called","answers":{"a":"Input bias current","b":"Output bias current","c":"Input offset curren","d":"None of the above"},"correctAnswer":"c"},
+{"question":"The difference of current in both input terminals of op-amp is called","answers":{"a":"Input bias current","b":"Output bias current","c":"Input offset current","d":"None of the above"},"correctAnswer":"c"},
 {"question":"Slew rate of an op-amp is","answers":{"a":"The maximum rate at which output voltage can change.","b":"The minimum rate at which output voltage can change.","c":"Always zero.","d":"Independent of frequency."},"correctAnswer":"a"},
 {"question":"In the op -amp IC 741 the input pin number(s) is/ are","answers":{"a":"2 and 3","b":"4","c":"1 and 8","d":"6"},"correctAnswer":"a"},
 {"question":"What is the full form of CMRR?","answers":{"a":"Common mode resistance ratio","b":"Combined mode repetitive ratio","c":"Common mode rejection ratio","d":"Common modulation rejection ratio"},"correctAnswer":"c"},
-{"question":"For an op amp with negative feedback, the output is","answers":{"a":"Equal to the input","b":"Increased","c":"Fed back to the inverting input","d":"Fed back to the non-inverting input"},"correctAnswer":"c"},
+{"question":"For an op amp with negative feedback, the output is","answers":{"a":"Equal to the input","b":"Increased","c":"Feedback to the inverting input","d":"Feedback to the non-inverting input"},"correctAnswer":"c"},
 {"question":"Which of the following is not an Op-Amp IC?","answers":{"a":"LM741","b":"LM747","c":"LM358","d":"LM386"},"correctAnswer":"d"}]

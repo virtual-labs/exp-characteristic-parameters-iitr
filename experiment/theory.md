@@ -42,7 +42,7 @@ An ideal op-amp would exhibit the following electrical characteristics:
 
 #### Input offset voltage
 
-Input offset voltage is the voltage that must be applied between the two input terminals of an op- amp to null the output as shown in Fig.3. In the figure V<sub>dc1</sub> and V<sub>dc2</sub> are dc voltages and R<sub>s</sub> represents the source resistance. We denote input offset voltage by V<sub>io</sub>. This voltage V<sub>io</sub> could be positive or negative. For a 741C, the maximum value of V<sub>io</sub> is 6mV dc. The smaller the value of V<sub>io</sub>, the better the input terminals are matched. For instance, the 741C precision op-amps has maximum V<sub>io</sub>\= 150µV.
+Input offset voltage is the voltage that must be applied between the two input terminals of an op-amp to null the output as shown in Fig.3. In figure V<sub>dc1</sub> and V<sub>dc2</sub> are dc voltages and R<sub>s</sub> represents the source resistance. We denote input offset voltage by V<sub>io</sub>. This voltage V<sub>io</sub> could be positive or negative. For a 741C, the maximum value of V<sub>io</sub> is 6mV dc. The smaller the value of V<sub>io</sub>, the better the input terminals are matched. For instance, the 741C precision op-amps has maximum V<sub>io</sub>\= 150µV.
 <div style="text-align:center">
 
 ![Input offset voltage](images/image3.png )
@@ -86,8 +86,8 @@ The differential voltage gain A<sub>d</sub> is same as the large-signal voltage 
 
 where -  
 V<sub>ocm</sub> = output common mode voltage  
-V<sub>cm</sub> =input common mode voltage  
-A<sub>cm</sub> =common mode voltage gain
+V<sub>cm</sub> = input common mode voltage  
+A<sub>cm</sub> = common mode voltage gain
 <div style="text-align:center">
 
 ![Common mode circuit](images/image5.png )
@@ -108,7 +108,7 @@ Slew Rate (SR) is defined as the maximum rate of change of output voltage and is
   
 Slew rate indicates how rapidly the output of an op-amp can change in response to changes in the input frequency. The slew rate changes with change in voltage gain and is normally specified at unity (+1) gain. The slew rate of an op-amp is fixed; therefore, if the slope requirements of the output signal are greater than the slew rate, distortion occurs. The slew rate is one of the important factors in selecting the op-amp for ac applications, particularly at relatively high frequencies.
 
-One of the drawbacks of the 741C is its low slew rate (0.5V/µs), which limits its use in relatively high frequency applications, especially in oscillators, comparators and filters. The newer op-amps: LF351, µAF771 and MC 34001 which are direct replacements for 741, have a slew rate of 13V/µs. In high speed op-amps, specially, the slew rate is significantly improved. For instance, the LM318 has a slew rate of 70V/µs.
+One of the drawbacks of the 741C is its low slew rate (0.5V/µs), which limits its use in relatively high frequency applications, especially in oscillators, comparators and filters. The newer op-amps: LF351, µAF771 and MC 34001 which are direct replacements for 741, have a slew rate of 13V/µs. In high speed op-amps, especially, the slew rate is significantly improved. For instance, the LM318 has a slew rate of 70V/µs.
 
 ### Op-amp IC-741 pin configuration
 
@@ -121,7 +121,7 @@ The pin configuration of IC-741 general purpose operational amplifier is shown i
 </div>
 
 ➢ **Pin 1** and **Pin 5** are offset null pins. Offset null is a calibration feature of the op-amp. The op-amp is so sensitive to the input voltage that at times, the output will generate a signal even when there is no intentional input. To avoid this condition for certain applications, offset null pins are provided. They are usually connected to a variable resistance such as a potentiometer. The potentiometer can be adjusted to produce a zero-output voltage from Pin 6.  
-➢ **Pin 2** and **Pin 3** are two input pins. Both inputs, pin 2 and pin 3, generate an output at Pin 6, but they generate opposite polarities. Pin 2 is the inverting input. Any signal applied to Pin 2 generates a signal of opposite polarity at the output. The non-inverting input, Pin 3, generates an outputof the same polarity at Pin 6 .  
+➢ **Pin 2** and **Pin 3** are two input pins. Both inputs, pin 2 and pin 3, generate an output at Pin 6, but they generate opposite polarities. Pin 2 is the inverting input. Any signal applied to Pin 2 generates a signal of opposite polarity at the output. The non-inverting input, Pin 3, generates an output of the same polarity at Pin 6.  
 ➢ Power to the op-amp is provided through **Pin 4** and **Pin 7**. Pin 4 is either connected to ground or a negative voltage value from 3 to 18 volts. Pin 7 is connected to the positive voltage of the power supply.  
 ➢ The output of the amplifier is at **Pin 6**.  
 ➢ **Pin 8** is not used. 'NC' stands for no connection.

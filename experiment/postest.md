@@ -38,12 +38,12 @@ D  70 nA and 50 nA
 <br>
 
 
-Q5. The use of negative feedback in an op amp is that it  
+Q5. The use of negative feedback in an op-amp is that it  
 
 A  Reduces the voltage gain of an op-amp  
-B  Makes the op amp oscillate  
+B  Makes the op-amp oscillate  
 C  Increases the input impedance and bandwidth  
-<b>D  Both options A and C</b>  
+<b>D  Both options a and c</b>  
 <br>
 
 
@@ -56,7 +56,7 @@ D  Equal to CMRR
 <br>
 
 
-Q7. A certain non inverting amplifier has Ri of 1 kΩ and Rf of 100 kΩ. The closed-loop voltage gain is \_\_\_\_\_\_\_\_.  
+Q7. A certain non-inverting amplifier has Ri of 1 kΩ and Rf of 100 kΩ. The closed-loop voltage gain is \_\_\_\_\_\_\_\_.  
 
 A  100000  
 B  1000  
