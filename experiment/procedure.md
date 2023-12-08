@@ -1,4 +1,4 @@
-## Procedure<br>
+
 ### **A. Measurement of Input Bias Current I<sub>B</sub>**
 
 #### Familiarise with components
@@ -134,7 +134,7 @@ where, I<sub>B1</sub> has to be calculated from previous part.
 
 ### **D. Measurement of slew rate S.R.**
 
-**1.** Click on the component button to place the component on the table.  
+**1.** Click on the components button to place the component on the table.  
 
 <div style="text-align:center">  
 
