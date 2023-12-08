@@ -33,7 +33,7 @@
 **I<sub>B1</sub> = V<sub>o</sub>/R<sub>f</sub>** </div>
  
 
-**5.** Click on **'Result'** button and enter the claculated value.  
+**5.** Click on **'Result'** button and enter the calculated value.  
 **6.** Click on **'Reset'** button and proceed in the same way to calculate the input bias current at non-inverting terminal.
 
   
@@ -63,7 +63,7 @@
 
 **I<sub>B2</sub> = V<sub>o</sub>/R<sub>1</sub>** </div>
 
-**5.** Click on **'Result'** button and enter the claculated value.  
+**5.** Click on **'Result'** button and enter the calculated value.  
 **6.** The input bias current I<sub>B</sub> hence, can be calculated using the formula:  
 <div style="text-align:center">  
 
@@ -96,7 +96,7 @@ where, I<sub>B1</sub> has to be calculated from previous part.
 
 **I<sub>io</sub> = V<sub>o</sub>/R<sub>f</sub>** </div>
 
-**5.** Click on **'Result'** button and enter the claculated value.  
+**5.** Click on **'Result'** button and enter the calculated value.  
   
 
 ### **C. Measurement of input offset voltage V<sub>io</sub>**
@@ -127,7 +127,7 @@ where, I<sub>B1</sub> has to be calculated from previous part.
 **4.** Calculate the input offset voltage, **V<sub>io</sub>** using the formula:   
 <div style="text-align:center">
 
-**V<sub>io</sub>** = (V<sub>o</sub> - I<sub>io</sub>R<sub>f</sub>)/(1+R<sub>f</sub>/R<sub>i</sub>)</div>
+**V<sub>io</sub>** = **(V<sub>o</sub> - I<sub>io</sub>R<sub>f</sub>)/(1+R<sub>f</sub>/R<sub>i</sub>)** </div>
 
 **5.** Click on **'Result'** button and enter the claculated value.  
   
