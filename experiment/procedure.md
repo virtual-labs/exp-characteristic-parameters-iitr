@@ -1,4 +1,4 @@
-## Procedure<br>
+
 ### **A. Measurement of Input Bias Current I<sub>B</sub>**
 
 #### Familiarise with components
@@ -11,7 +11,7 @@
 
 #### **a) Measurement of inverting bias current I<sub>B1</sub>**
 
-**1.** Click on the component button to place the component on the table.  
+**1.** Click on the components button to place the component on the table.  
 
 **2.** Make connections as per the circuit diagram or connection table.  
 <center>
@@ -41,7 +41,7 @@
 
 #### **b) Measurement of non-inverting bias current I<sub>B2</sub>**
 
-**1.** Click on the component button to place the component on the table.  
+**1.** Click on the components button to place the component on the table.  
 
 **2.** Make connections as per the circuit diagram or connection table.  
 
@@ -74,7 +74,7 @@ where, I<sub>B1</sub> has to be calculated from previous part.
 
 ### **B. Measurement of input offset current I<sub>io</sub>**
 
-**1.** Click on the component button to place the component on the table.  
+**1.** Click on the components button to place the component on the table.  
 
 **2.** Make connections as per the circuit diagram or connection table.  
 
@@ -101,7 +101,7 @@ where, I<sub>B1</sub> has to be calculated from previous part.
 
 ### **C. Measurement of input offset voltage V<sub>io</sub>**
 
-**1.** Click on the component button to place the component on the table.  
+**1.** Click on the components button to place the component on the table.  
 
  <div style="text-align:center">
 
@@ -134,7 +134,7 @@ where, I<sub>B1</sub> has to be calculated from previous part.
 
 ### **D. Measurement of slew rate S.R.**
 
-**1.** Click on the component button to place the component on the table.  
+**1.** Click on the components button to place the component on the table.  
 
 <div style="text-align:center">  
 
